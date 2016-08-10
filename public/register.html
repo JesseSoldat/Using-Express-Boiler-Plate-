@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <header role="banner">
+    <div class="container">
+      <h1>JD CRUD App</h1>
+      <nav role="navigation">
+        <a href="/">Home</a> | <a href="/login">Login</a> | <a href="/register">Register</a> | <a href="/logout">Logout</a> | <a href="/list">Jobs list</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="container">
+    <main role="main">
+      <h3>Register</h3>
+      <form action="/register" method="post">
+        <div>
+          <label>Username:</label>
+          <input type="text" name="username" />
+          <br/>
+        </div>
+        <div>
+          <label>Password:</label>
+          <input type="text" name="password" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </div>
+
+</body>
+</html>
